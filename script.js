@@ -5,7 +5,7 @@ class First {
 }
 
 class Second extends First {
-    hello1() {
+    hello() {
         super.hello();
         console.log('А я наследуемый метод!')
     }
@@ -13,4 +13,4 @@ class Second extends First {
 
 const second = new Second();
 
-second.hello1();
+second.hello();
